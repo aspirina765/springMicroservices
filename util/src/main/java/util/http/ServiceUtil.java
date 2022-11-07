@@ -1,4 +1,4 @@
-package api.util.http;
+package util.http;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

@@ -1,4 +1,4 @@
-package api.util.http;
+package util.http;
 
 import java.time.ZonedDateTime;
 import org.springframework.http.HttpStatus;

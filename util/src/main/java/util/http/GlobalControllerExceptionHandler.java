@@ -1,4 +1,4 @@
-package api.util.http;
+package util.http;
 
 import static org.springframework.http.HttpStatus.NOT_FOUND;
 import static org.springframework.http.HttpStatus.UNPROCESSABLE_ENTITY;
@@ -11,8 +11,11 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import api.exceptions.InvalidInputException;
-import api.exceptions.NotFoundException;
+//import api.exceptions.InvalidInputException;
+//import api.exceptions.NotFoundException;
+
+//import api.*;
+//import InvalidInputException;
 
 @RestControllerAdvice
 class GlobalControllerExceptionHandler {

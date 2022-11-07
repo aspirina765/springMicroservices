@@ -8,8 +8,7 @@ docker build -t microservices/recommendation-service ./microservices/recommendat
 
 docker build -t microservices/review-service ./microservices/review-service/
 
-
-
+docker-compose up -d
 
 
 

@@ -1,1 +1,7 @@
 rootProject.name = 'util'
+include ':api'
+
+project(':api').projectDir = file('shopeeMicroservices/api')
+
+
+
